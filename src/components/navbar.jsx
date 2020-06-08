@@ -5,11 +5,10 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { FaFacebookSquare, FaInstagram, FaGithub } from 'react-icons/fa';
 
 
-
 export default class Navigation extends Component {
     render() {
       return (
-        <Navbar bg="white" expand="lg">
+        <Navbar bg="white" expand="lg" style={{ fontFamily: "RalewayLight" }}>
         <Navbar.Brand href="/">the Piccolos</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
