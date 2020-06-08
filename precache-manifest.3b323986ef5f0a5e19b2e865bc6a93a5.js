@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2980f4b8f13dc6e66c1a6dde98c408c0",
+    "revision": "bb2838d34007281763c704e30e606881",
     "url": "/piccs/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/piccs/static/css/2.af3c1da9.chunk.css"
   },
   {
-    "revision": "0468bca6e28129c72cd2",
+    "revision": "d6d634b4369ac053330f",
     "url": "/piccs/static/css/main.c122ddc0.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/piccs/static/js/2.df30fae5.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0468bca6e28129c72cd2",
-    "url": "/piccs/static/js/main.4fffcab2.chunk.js"
+    "revision": "d6d634b4369ac053330f",
+    "url": "/piccs/static/js/main.d517e39f.chunk.js"
   },
   {
     "revision": "a767117cd5b7fd93cb5d",
@@ -32,11 +32,11 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/piccs/static/media/Raleway-SemiBold.5a25c50b.ttf"
   },
   {
-    "revision": "5799d49d3f974c36ad73e35cbf0f1aff",
-    "url": "/piccs/static/media/homepagebannerv2.5799d49d.png"
-  },
-  {
     "revision": "5d5d9eefa31e5e13a6610d9fa7a283bb",
     "url": "/piccs/static/media/logo.5d5d9eef.svg"
+  },
+  {
+    "revision": "7d9836e39ec595f4f7e7d7da2efa0f16",
+    "url": "/piccs/static/media/smaller-screen-home-bannerv2.7d9836e3.png"
   }
 ]);
