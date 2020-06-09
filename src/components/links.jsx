@@ -6,7 +6,7 @@ export default class Links extends Component {
     render() {
       return (
         <div>
-            Coming soon: the 'useful links' page.
+            <div className="container-w1">Coming soon: "useful links" page</div>
         </div>
       )
     }

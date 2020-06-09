@@ -6,7 +6,7 @@ export default class Faq extends Component {
     render() {
       return (
         <div>
-            Coming soon: the faq page.
+            <div className="container-w1">Coming soon: faq page</div>
         </div>
       )
     }

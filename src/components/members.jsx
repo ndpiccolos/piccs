@@ -6,7 +6,7 @@ export default class Members extends Component {
     render() {
       return (
         <div>
-            Coming soon: the members page.
+            <div className="container-w1">Coming soon: members page</div>
         </div>
       )
     }

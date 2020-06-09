@@ -6,7 +6,7 @@ export default class Contact extends Component {
     render() {
       return (
         <div>
-            Coming soon: the 'contact us' page.
+            <div className="container-w1">Coming soon: contact page</div>
         </div>
       )
     }

@@ -6,7 +6,7 @@ export default class About extends Component {
     render() {
       return (
         <div>
-            Coming soon: the about page.
+            <div className="container-w1">here is where about page will go! coming soon.</div>
         </div>
       )
     }

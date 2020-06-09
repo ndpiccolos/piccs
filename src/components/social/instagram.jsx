@@ -6,7 +6,7 @@ export default class Instagram extends Component {
     render() {
       return (
         <div>
-            Coming soon: the instagram feed page.
+            <div className="container-w1">Coming soon: instagram feed page</div>
         </div>
       )
     }

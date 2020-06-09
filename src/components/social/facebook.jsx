@@ -6,7 +6,7 @@ export default class Faq extends Component {
     render() {
       return (
         <div>
-            Coming soon: the link/info about the facebook page (maybe embed a few posts?).
+            <div className="container-w1">Coming soon: facebook info</div>
         </div>
       )
     }

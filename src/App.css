@@ -26,12 +26,18 @@
   width: 100vh;
 }
 
-.social-buttons {
-  padding-left: 10px; 
-  padding-right: 10px; 
-}
-
 .App-link {
   color: #61dafb;
+}
+
+
+
+
+.container-w1 {
+  display: flex;
+  align-items: center;
+  width: 90%;
+  padding-top: 5%;
+  padding-left: 5%;
 }
 
