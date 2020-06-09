@@ -9,19 +9,19 @@ export default class Navigation extends Component {
     render() {
       return (
         <Navbar bg="white" expand="lg" style={{ fontFamily: "RalewayLight" }}>
-        <Navbar.Brand href="/">the Piccolos</Navbar.Brand>
+        <Navbar.Brand href="/piccs">the Piccolos</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mr-auto">
-            <Nav.Link href="/">Home</Nav.Link>
-            <Nav.Link href="members">Members</Nav.Link>
-            <Nav.Link href="schedule">Schedule</Nav.Link>
-            <Nav.Link href="tradition">Tradition</Nav.Link>
-            <Nav.Link href="faq">FAQ</Nav.Link>
+            <Nav.Link href="/piccs">Home</Nav.Link>
+            <Nav.Link href="/piccs/about">About</Nav.Link>
+            <Nav.Link href="/piccs/members">Members</Nav.Link>
+            <Nav.Link href="/piccs/faq">FAQ</Nav.Link>
             <NavDropdown title="Social Media" id="basic-nav-dropdown">
                 <NavDropdown.Item href="instagram">Instagram</NavDropdown.Item>
                 <NavDropdown.Item href="facebook">Facebook</NavDropdown.Item>
             </NavDropdown>
+            <Nav.Link href="/piccs/contact">Contact Us</Nav.Link>
             </Nav>
         </Navbar.Collapse>
         {/* <Nav className="mr-auto">
