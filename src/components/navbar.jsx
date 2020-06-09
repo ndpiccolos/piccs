@@ -15,7 +15,8 @@ export default class Navigation extends Component {
             <Nav className="mr-auto">
             <Nav.Link href="/piccs">Home</Nav.Link>
             <Nav.Link href="/piccs/about">About</Nav.Link>
-            <Nav.Link href="/piccs/members">Members</Nav.Link>
+            <Nav.Link href="/piccs/members">Current Members</Nav.Link>
+            <Nav.Link href="/piccs/links">Links</Nav.Link>
             <Nav.Link href="/piccs/faq">FAQ</Nav.Link>
             <NavDropdown title="Social Media" id="basic-nav-dropdown">
                 <NavDropdown.Item href="instagram">Instagram</NavDropdown.Item>

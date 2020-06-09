@@ -8,6 +8,7 @@ import Home from './components/home.jsx';
 import Members from './components/members.jsx';
 import Navbar from './components/navbar.jsx';
 import About from './components/about.jsx';
+import Links from './components/links.jsx';
 import Faq from './components/faq.jsx';
 import Contact from './components/contact.jsx';
 import Instagram from './components/social/instagram.jsx';
@@ -20,6 +21,7 @@ const routing = (
       <Route exact path="/piccs" component={Home} />
       <Route exact path="/piccs/about" component={About} />
       <Route exact path="/piccs/members" component={Members} />
+      <Route exact path="/piccs/links" component={Links} />
       <Route exact path="/piccs/faq" component={Faq} />
       <Route exact path="/piccs/instagram" component={Instagram} />
       <Route exact path="/piccs/facebook" component={Facebook} />
