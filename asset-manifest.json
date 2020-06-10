@@ -1,28 +1,27 @@
 {
   "files": {
-    "main.css": "/piccs/static/css/main.c122ddc0.chunk.css",
-    "main.js": "/piccs/static/js/main.d517e39f.chunk.js",
-    "main.js.map": "/piccs/static/js/main.d517e39f.chunk.js.map",
+    "main.css": "/piccs/static/css/main.de069ff5.chunk.css",
+    "main.js": "/piccs/static/js/main.d4becbe9.chunk.js",
+    "main.js.map": "/piccs/static/js/main.d4becbe9.chunk.js.map",
     "runtime-main.js": "/piccs/static/js/runtime-main.e8887870.js",
     "runtime-main.js.map": "/piccs/static/js/runtime-main.e8887870.js.map",
     "static/css/2.af3c1da9.chunk.css": "/piccs/static/css/2.af3c1da9.chunk.css",
-    "static/js/2.df30fae5.chunk.js": "/piccs/static/js/2.df30fae5.chunk.js",
-    "static/js/2.df30fae5.chunk.js.map": "/piccs/static/js/2.df30fae5.chunk.js.map",
+    "static/js/2.40a80467.chunk.js": "/piccs/static/js/2.40a80467.chunk.js",
+    "static/js/2.40a80467.chunk.js.map": "/piccs/static/js/2.40a80467.chunk.js.map",
     "index.html": "/piccs/index.html",
-    "precache-manifest.3b323986ef5f0a5e19b2e865bc6a93a5.js": "/piccs/precache-manifest.3b323986ef5f0a5e19b2e865bc6a93a5.js",
+    "precache-manifest.fd4bce83b3bb09cf05e1bb03a93513ea.js": "/piccs/precache-manifest.fd4bce83b3bb09cf05e1bb03a93513ea.js",
     "service-worker.js": "/piccs/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/piccs/static/css/2.af3c1da9.chunk.css.map",
-    "static/css/main.c122ddc0.chunk.css.map": "/piccs/static/css/main.c122ddc0.chunk.css.map",
-    "static/js/2.df30fae5.chunk.js.LICENSE.txt": "/piccs/static/js/2.df30fae5.chunk.js.LICENSE.txt",
+    "static/css/main.de069ff5.chunk.css.map": "/piccs/static/css/main.de069ff5.chunk.css.map",
+    "static/js/2.40a80467.chunk.js.LICENSE.txt": "/piccs/static/js/2.40a80467.chunk.js.LICENSE.txt",
     "static/media/App.css": "/piccs/static/media/Raleway-SemiBold.5a25c50b.ttf",
-    "static/media/logo.svg": "/piccs/static/media/logo.5d5d9eef.svg",
-    "static/media/smaller-screen-home-bannerv2.png": "/piccs/static/media/smaller-screen-home-bannerv2.7d9836e3.png"
+    "static/media/homepagebannerv2.png": "/piccs/static/media/homepagebannerv2.5799d49d.png"
   },
   "entrypoints": [
     "static/js/runtime-main.e8887870.js",
     "static/css/2.af3c1da9.chunk.css",
-    "static/js/2.df30fae5.chunk.js",
-    "static/css/main.c122ddc0.chunk.css",
-    "static/js/main.d517e39f.chunk.js"
+    "static/js/2.40a80467.chunk.js",
+    "static/css/main.de069ff5.chunk.css",
+    "static/js/main.d4becbe9.chunk.js"
   ]
 }
