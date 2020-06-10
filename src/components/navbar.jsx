@@ -3,7 +3,7 @@ import '../App.css';
 import { Navbar, Nav, NavDropdown, FormControl, Button, Form } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { FaFacebookSquare, FaInstagram, FaGithub } from 'react-icons/fa';
-
+import { HashRouter, Route, Link } from "react-router-dom";
 
 export default class Navigation extends Component {
     render() {
@@ -14,7 +14,7 @@ export default class Navigation extends Component {
         <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mr-auto">
             <Nav.Link href="/piccs">Home</Nav.Link>
-            <Nav.Link href="/piccs/about">About</Nav.Link>
+            <Nav.Link><Link to="about">About</Link></Nav.Link>
             <Nav.Link href="/piccs/members">Current Members</Nav.Link>
             <Nav.Link href="/piccs/links">Links</Nav.Link>
             <Nav.Link href="/piccs/faq">FAQ</Nav.Link>

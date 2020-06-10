@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import * as serviceWorker from './serviceWorker';
-import { Route, Link, BrowserRouter as Router } from 'react-router-dom';
+import { Route, Link, HashRouter, BrowserRouter as Router } from 'react-router-dom';
 
 import Home from './components/home.jsx';
 import Members from './components/members.jsx';
@@ -15,11 +15,11 @@ import Instagram from './components/social/instagram.jsx';
 import Facebook from './components/social/facebook.jsx';
 
 const routing = (
-  <Router>
+  <HashRouter basename="/">
     <Navbar/>
     <div>
-      <Route exact path="/piccs" component={Home} />
-      <Route exact path="/piccs/about" component={About} />
+      <Route exact path="/" component={Home} />
+      <Route path="/about" component={About} />
       <Route exact path="/piccs/members" component={Members} />
       <Route exact path="/piccs/links" component={Links} />
       <Route exact path="/piccs/faq" component={Faq} />
@@ -27,7 +27,7 @@ const routing = (
       <Route exact path="/piccs/facebook" component={Facebook} />
       <Route exact path="/piccs/contact" component={Contact} />
     </div>
-  </Router>
+  </HashRouter>
 )
 
 ReactDOM.render(
