@@ -15,14 +15,14 @@ export default class Navigation extends Component {
             <Nav className="mr-auto">
             <Nav.Link href="/piccs">Home</Nav.Link>
             <Nav.Link><Link to="about">About</Link></Nav.Link>
-            <Nav.Link href="/piccs/members">Current Members</Nav.Link>
-            <Nav.Link href="/piccs/links">Links</Nav.Link>
-            <Nav.Link href="/piccs/faq">FAQ</Nav.Link>
+            <Nav.Link><Link to="members">Current Members</Link></Nav.Link>
+            <Nav.Link><Link to="links">Links</Link></Nav.Link>
+            <Nav.Link><Link to="faq">FAQ</Link></Nav.Link>
             <NavDropdown title="Social Media" id="basic-nav-dropdown">
-                <NavDropdown.Item href="instagram">Instagram</NavDropdown.Item>
-                <NavDropdown.Item href="facebook">Facebook</NavDropdown.Item>
+                <NavDropdown.Item><Link to="instagram">Instagram</Link></NavDropdown.Item>
+                <NavDropdown.Item><Link to="facebook">Facebook</Link></NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link href="/piccs/contact">Contact Us</Nav.Link>
+            <Nav.Link><Link to="contact">Contact Us</Link></Nav.Link>
             </Nav>
         </Navbar.Collapse>
         {/* <Nav className="mr-auto">

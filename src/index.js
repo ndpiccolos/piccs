@@ -4,6 +4,8 @@ import './index.css';
 import * as serviceWorker from './serviceWorker';
 import { Route, Link, HashRouter, BrowserRouter as Router } from 'react-router-dom';
 
+import { Switch } from 'react-router-dom';
+
 import Home from './components/home.jsx';
 import Members from './components/members.jsx';
 import Navbar from './components/navbar.jsx';
@@ -15,19 +17,19 @@ import Instagram from './components/social/instagram.jsx';
 import Facebook from './components/social/facebook.jsx';
 
 const routing = (
-  <HashRouter basename="/">
+  <Router basename={process.env.PUBLIC_URL}>
     <Navbar/>
-    <div>
+    <Switch>
       <Route exact path="/" component={Home} />
       <Route path="/about" component={About} />
-      <Route exact path="/piccs/members" component={Members} />
-      <Route exact path="/piccs/links" component={Links} />
-      <Route exact path="/piccs/faq" component={Faq} />
-      <Route exact path="/piccs/instagram" component={Instagram} />
-      <Route exact path="/piccs/facebook" component={Facebook} />
-      <Route exact path="/piccs/contact" component={Contact} />
-    </div>
-  </HashRouter>
+      <Route path="/members" component={Members} />
+      <Route path="/links" component={Links} />
+      <Route path="/faq" component={Faq} />
+      <Route path="/instagram" component={Instagram} />
+      <Route path="/facebook" component={Facebook} />
+      <Route path="/contact" component={Contact} />
+      </Switch>
+  </Router>
 )
 
 ReactDOM.render(
