@@ -1,14 +1,13 @@
 import React, { Component } from 'react'
 import '../App.css'; 
-import { Navbar, Nav, NavDropdown, FormControl, Button, Form } from 'react-bootstrap';
+import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { FaFacebookSquare, FaInstagram, FaGithub } from 'react-icons/fa';
-import { HashRouter, Route, Link, NavLink } from "react-router-dom";
+import { NavLink } from 'react-router-dom';
 
 export default class Navigation extends Component {
     render() {
       return (
-        <Navbar bg="white" expand="lg" style={{ fontFamily: "RalewayLight" }}>
+        <Navbar bg="white" expand="lg" style={{ fontFamily: "Raleway" }}>
         <Navbar.Brand href="/piccs">the Piccolos</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
@@ -25,11 +24,6 @@ export default class Navigation extends Component {
             <Nav.Link><NavLink to="contact" activeStyle={{ color: 'black' }} style={{color: 'grey'}}>Contact Us</NavLink></Nav.Link>
             </Nav>
         </Navbar.Collapse>
-        {/* <Nav className="mr-auto">
-                <div className="social-buttons"><FaFacebookSquare size={30} color={"grey"}/></div>
-                <div className="social-buttons"><FaInstagram size={30} color={"grey"}/></div>
-                <div className="social-buttons"><FaGithub size={30} color={"grey"}/></div>
-        </Nav> */}
         </Navbar>
       )
     }
