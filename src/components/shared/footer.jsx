@@ -14,9 +14,9 @@ export default class Footer extends Component {
         <div className="container">
             <div className="row">
               <div className="col-md" style={{"padding-bottom": 30}}>
-                <h3 className="footer-header">THE PICCOLOS</h3>
-                <p>We are the piccolos of the Band of the Fighting Irish. Please feel free to contact us if you'd like
-                    to get in touch or have any questions for us!
+                <div className="footer-header">THE PICCOLOS</div>
+                <p><div className="footer-text">We are the piccolos of the Band of the Fighting Irish. Please feel free to contact us if you'd like
+                    to get in touch or have any questions for us!</div>
                 </p>
               </div>
               <div className="col-md" style={{"padding-bottom": 30}}>
@@ -29,7 +29,7 @@ export default class Footer extends Component {
                 <h3 className="footer-header">LEARN MORE</h3>
                 <p><a href="https://nd.edu" className="footer-link">The University of Notre Dame</a>
                 <div><a href="https://www.ndband.com/" className="footer-link">ND Band</a></div>
-                <div>Email: ndpiccolos@gmail.com</div></p>
+                <div className="footer-text">Email: ndpiccolos@gmail.com</div></p>
               </div>
             </div>
             <div className="row">
@@ -48,7 +48,7 @@ export default class Footer extends Component {
             </div>
             <div className="row">
               <div className="col-md" style={{"padding-bottom": 30}}>
-                ©2020 ndpiccolos. Created with ♥ using github pages and react.
+                <div className="footer-text">©2020 ndpiccolos. Created with ♥ using github pages and react.</div>
               </div>
             </div>
         </div>

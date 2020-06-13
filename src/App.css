@@ -19,7 +19,7 @@
   width: 95%;
   padding-left: 2.5%;
   padding-top: 1%;
-  min-height: 90vh;
+  min-height: 50vh;
 }
 
 .footer {
@@ -33,11 +33,17 @@
 
 .footer-header {
   padding-bottom: 10px; 
+  font-size: 25px; 
+}
+
+.footer-text {
+  font-size: 15px; 
 }
 
 .footer-link {
   color: black;
   text-decoration: underline;
+  font-size: 15px; 
 }
 
 .social-link {
