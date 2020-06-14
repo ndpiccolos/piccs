@@ -52,3 +52,20 @@
   padding-left: 10px; 
   padding-right: 10px; 
 }
+
+.members-text {
+  font-family: "RalewayLight";
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 3%;
+  margin-top: 2%;
+}
+
+.members-caption {
+  font-family: "RalewayLight";
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  padding-top: 8px;
+  padding-bottom: 15px; 
+}
