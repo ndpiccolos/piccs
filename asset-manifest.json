@@ -1,28 +1,29 @@
 {
   "files": {
-    "main.css": "/piccs/static/css/main.0b47c964.chunk.css",
-    "main.js": "/piccs/static/js/main.ef720961.chunk.js",
-    "main.js.map": "/piccs/static/js/main.ef720961.chunk.js.map",
+    "main.css": "/piccs/static/css/main.3d4815f9.chunk.css",
+    "main.js": "/piccs/static/js/main.9c47497f.chunk.js",
+    "main.js.map": "/piccs/static/js/main.9c47497f.chunk.js.map",
     "runtime-main.js": "/piccs/static/js/runtime-main.e8887870.js",
     "runtime-main.js.map": "/piccs/static/js/runtime-main.e8887870.js.map",
-    "static/css/2.bb083c27.chunk.css": "/piccs/static/css/2.bb083c27.chunk.css",
-    "static/js/2.5a3bc6d0.chunk.js": "/piccs/static/js/2.5a3bc6d0.chunk.js",
-    "static/js/2.5a3bc6d0.chunk.js.map": "/piccs/static/js/2.5a3bc6d0.chunk.js.map",
+    "static/css/2.1a320ec6.chunk.css": "/piccs/static/css/2.1a320ec6.chunk.css",
+    "static/js/2.dc7b2115.chunk.js": "/piccs/static/js/2.dc7b2115.chunk.js",
+    "static/js/2.dc7b2115.chunk.js.map": "/piccs/static/js/2.dc7b2115.chunk.js.map",
     "index.html": "/piccs/index.html",
-    "precache-manifest.948e50031397d6b615daca7ef538169b.js": "/piccs/precache-manifest.948e50031397d6b615daca7ef538169b.js",
+    "precache-manifest.24b48db1e308f57679bdb3290b3c191f.js": "/piccs/precache-manifest.24b48db1e308f57679bdb3290b3c191f.js",
     "service-worker.js": "/piccs/service-worker.js",
-    "static/css/2.bb083c27.chunk.css.map": "/piccs/static/css/2.bb083c27.chunk.css.map",
-    "static/css/main.0b47c964.chunk.css.map": "/piccs/static/css/main.0b47c964.chunk.css.map",
-    "static/js/2.5a3bc6d0.chunk.js.LICENSE.txt": "/piccs/static/js/2.5a3bc6d0.chunk.js.LICENSE.txt",
+    "static/css/2.1a320ec6.chunk.css.map": "/piccs/static/css/2.1a320ec6.chunk.css.map",
+    "static/css/main.3d4815f9.chunk.css.map": "/piccs/static/css/main.3d4815f9.chunk.css.map",
+    "static/js/2.dc7b2115.chunk.js.LICENSE.txt": "/piccs/static/js/2.dc7b2115.chunk.js.LICENSE.txt",
     "static/media/App.css": "/piccs/static/media/Raleway-SemiBold.5a25c50b.ttf",
     "static/media/homepagebannerv2.png": "/piccs/static/media/homepagebannerv2.5799d49d.png",
+    "static/media/ok_go_piccolos.png": "/piccs/static/media/ok_go_piccolos.8325db25.png",
     "static/media/test_photo.png": "/piccs/static/media/test_photo.6ad9f701.png"
   },
   "entrypoints": [
     "static/js/runtime-main.e8887870.js",
-    "static/css/2.bb083c27.chunk.css",
-    "static/js/2.5a3bc6d0.chunk.js",
-    "static/css/main.0b47c964.chunk.css",
-    "static/js/main.ef720961.chunk.js"
+    "static/css/2.1a320ec6.chunk.css",
+    "static/js/2.dc7b2115.chunk.js",
+    "static/css/main.3d4815f9.chunk.css",
+    "static/js/main.9c47497f.chunk.js"
   ]
 }
