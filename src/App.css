@@ -53,11 +53,13 @@
   padding-right: 10px; 
 }
 
-.members-text {
+
+
+.text-container  {
   font-family: "RalewayLight";
   margin-left: 5%;
   margin-right: 5%;
-  margin-bottom: 3%;
+  margin-bottom: 1%;
   margin-top: 2%;
 }
 
@@ -68,4 +70,20 @@
   justify-content: center;
   padding-top: 8px;
   padding-bottom: 15px; 
+}
+
+.members-divider-text  {
+  font-family: "RalewayLight";
+}
+
+
+
+.links-href {
+  text-decoration: none;
+  width: 300px; 
+}
+
+links-href:hover {
+  text-decoration: none;
+  color: red;
 }
