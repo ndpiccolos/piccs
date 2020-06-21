@@ -53,8 +53,6 @@
   padding-right: 10px; 
 }
 
-
-
 .text-container  {
   font-family: "RalewayLight";
   margin-left: 5%;
@@ -80,10 +78,19 @@
 
 .links-href {
   text-decoration: none;
-  width: 300px; 
 }
 
 links-href:hover {
+  text-decoration: none;
+  color: red;
+}
+
+.links-href:hover {
+  text-decoration: none;
+  color: red;
+}
+
+.links-href a:hover {
   text-decoration: none;
   color: red;
 }

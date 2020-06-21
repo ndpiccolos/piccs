@@ -17,8 +17,8 @@ export default class Links extends Component {
                 <a href="https://www.youtube.com/watch?v=4wRw9chUmu8" className="links-href">
                   <Card
                   hoverable
-                  className="links-href"
-                  cover={<img alt="example" src={OkGo} />}
+                  cover={<img src={OkGo} />}
+                  style={{"width": "270px"}}
                   >
                   <Meta title="Piccolos dance with OK Go" description="Watch the 2009 piccolos do the iconic 'Techno' 
                   dance with the band OK Go." />
@@ -26,26 +26,28 @@ export default class Links extends Component {
                 </a>
                 </div>
                 <div className="col-lg">
+                <a href="https://www.youtube.com/watch?v=4wRw9chUmu8" className="links-href">
                   <Card
                   hoverable
-                  className="links-href"
-                  cover={<img alt="example" src={OkGo} />}
+                  cover={<img src={OkGo} />}
+                  style={{"width": "270px"}}
                   >
-                  <a href="https://www.youtube.com/watch?v=4wRw9chUmu8" className="links-href">
                   <Meta title="Piccolos dance with OK Go" description="Watch the 2009 piccolos do the iconic 'Techno' 
                   dance with the band OK Go." />
-                </a></Card>
+                </Card>
+                </a>
                 </div>
                 <div className="col-lg">
+                <a href="https://www.youtube.com/watch?v=4wRw9chUmu8" className="links-href">
                   <Card
                   hoverable
-                  className="links-href"
-                  cover={<img alt="example" src={OkGo} />}
+                  cover={<img src={OkGo} />}
+                  style={{"width": "270px"}}
                   >
-                  <a href="https://www.youtube.com/watch?v=4wRw9chUmu8" className="links-href">
                   <Meta title="Piccolos dance with OK Go" description="Watch the 2009 piccolos do the iconic 'Techno' 
                   dance with the band OK Go." />
-                </a></Card>
+                </Card>
+                </a>
                 </div>
               </div>
             </div>
