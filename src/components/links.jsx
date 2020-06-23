@@ -19,7 +19,7 @@ export default class Links extends Component {
         <div>
             <div className="container" style={{"padding-top": "40px"}}>
               <div className="row">
-                <div className="col-md" align="center" style={columnStyle}>
+                <div className="col-lg" align="center" style={columnStyle}>
                 <a href="https://www.youtube.com/watch?v=4wRw9chUmu8" className="links-href">
                   <Card
                   hoverable
@@ -31,7 +31,7 @@ export default class Links extends Component {
                 </Card>
                 </a>
                 </div>
-                <div className="col-md" align="center" style={columnStyle}>
+                <div className="col-lg" align="center" style={columnStyle}>
                 <a href="https://www.youtube.com/watch?v=SgzGGy4GoJc&feature=youtu.be&fbclid=IwAR2C7fu8Sr9EbV7FVLCNrmnPvzidLNmsF00bHcRamJh2agX7wA_wEQBFKzM" className="links-href">
                   <Card
                   hoverable
@@ -43,7 +43,7 @@ export default class Links extends Component {
                 </Card>
                 </a>
                 </div>
-                <div className="col-md" align="center" style={columnStyle}>
+                <div className="col-lg" align="center" style={columnStyle}>
                 <a href="https://www.facebook.com/NotreDameBand/videos/1968307943473525/UzpfSTIxMTAyMDU4MzU4ODY5NTY6MjE0ODg3MDY2NTM1MzgwNg/" className="links-href">
                   <Card
                   hoverable
@@ -57,38 +57,37 @@ export default class Links extends Component {
                 </div>
               </div>
               <div className="row">
-              <div className="col-md" align="center" style={columnStyle}>
+              <div className="col-lg" align="center" style={columnStyle}>
                 <a href="https://www.facebook.com/NotreDameBand/videos/1968307943473525/UzpfSTIxMTAyMDU4MzU4ODY5NTY6MjE0ODg3MDY2NTM1MzgwNg/" className="links-href">
                   <Card
                   hoverable
                   cover={<img src={NYC} />}
                   style={{"width": "270px"}}
                   >
-                  <Meta title="ND Band Travels to NYC" description="Highlights from the 2018 Shamrock Series Game at Yankee Stadium
-                  in NYC." />
+                  <Meta title="Camping World Bowl" description="Highlights from the 2019 Camping World Bowl in Orlando." />
                 </Card>
                 </a>
                 </div>
-                <div className="col-md" align="center" style={columnStyle}>
-                <a href="https://www.facebook.com/NotreDameBand/videos/1968307943473525/UzpfSTIxMTAyMDU4MzU4ODY5NTY6MjE0ODg3MDY2NTM1MzgwNg/" className="links-href">
+                <div className="col-lg" align="center" style={columnStyle}>
+                <a href="https://www.youtube.com/watch?v=CrlTzuzQRXM" className="links-href">
                   <Card
                   hoverable
                   cover={<img src={NYC} />}
                   style={{"width": "270px"}}
                   >
-                  <Meta title="ND Band Travels to NYC" description="Highlights from the 2018 Shamrock Series Game at Yankee Stadium
-                  in NYC." />
+                  <Meta title="Imaginary Piccolo" description="2011 Marching Band plays at the US Capital while Band Director Dr. Dye
+                  plays imaginary piccolo." />
                 </Card>
                 </a>
                 </div>
-                <div className="col-md" align="center" style={columnStyle}>
+                <div className="col-lg" align="center" style={columnStyle}>
                 <a href="https://www.facebook.com/NotreDameBand/videos/1968307943473525/UzpfSTIxMTAyMDU4MzU4ODY5NTY6MjE0ODg3MDY2NTM1MzgwNg/" className="links-href">
                   <Card
                   hoverable
                   cover={<img src={NYC} />}
                   style={{"width": "270px"}}
                   >
-                  <Meta title="ND Band Travels to NYC" description="Highlights from the 2018 Shamrock Series Game at Yankee Stadium
+                  <Meta title="Piccolo Hype Video" description="Highlights from the 2018 Shamrock Series Game at Yankee Stadium
                   in NYC." />
                 </Card>
                 </a>
