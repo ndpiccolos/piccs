@@ -94,3 +94,32 @@ links-href:hover {
   text-decoration: none;
   color: red;
 }
+
+.about-style {
+  font-family: "RalewayLight"; 
+  margin-top: 5%; 
+}
+
+.faq-style {
+  font-family: "RalewayLight"; 
+  margin-top: 3%; 
+  margin-left: 5%; 
+  margin-right: 7%; 
+}
+
+.faq-questions {
+  margin-left: 5%; 
+  margin-top: 3%; 
+}
+
+.faq-answers {
+  margin-left: 2%; 
+  margin-top: .5%; 
+  margin-bottom: 4%; 
+  font-size: 20px; 
+}
+
+.about-images {
+  width: 100%;
+  height: auto;
+}

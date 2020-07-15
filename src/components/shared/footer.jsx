@@ -48,7 +48,7 @@ export default class Footer extends Component {
             </div>
             <div className="row">
               <div className="col-md" style={{"padding-bottom": 30}}>
-                <div className="footer-text">©2020 <a href="https://github.com/ndpiccolos/piccs" style={{"color": "black"}}>ndpiccolos</a>. Created with ♥ using github pages and react.</div>
+                <div className="footer-text">©2020 <a href="https://github.com/ndpiccolos/piccs" style={{"color": "black"}}>ndpiccolos</a>. Created with love using github pages and react.</div>
               </div>
             </div>
         </div>
