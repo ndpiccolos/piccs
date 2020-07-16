@@ -123,3 +123,21 @@ links-href:hover {
   width: 100%;
   height: auto;
 }
+
+.react-icons-box {
+  margin-top: 2%;
+  /* margin-left: 2%;  */
+}
+
+.contact-stats {
+  width: 250px;
+  margin-bottom: 20px; 
+  font-family: "RalewayLight";
+  margin-left: 30px; 
+  font-size: 20px; 
+}
+
+.code-stats {
+  margin-bottom: 20px; 
+  font-family: "RalewayLight";
+}
