@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../images/super-narrow-home-banner-6.png';
+import logo from '../images/smaller-screen-home-bannerv1.png';
 import { Grid } from 'react-bootstrap';
 import Footer from './shared/footer.jsx';
 import '../App.css';

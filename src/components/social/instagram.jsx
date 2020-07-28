@@ -4,7 +4,11 @@ import $ from 'jquery';
 import '../../App.css'; 
 import Script from 'react-load-script';
 import Footer from '../shared/footer.jsx';
+import InstagramEmbed from 'react-instagram-embed';
 
+var columnStyle = {
+  "padding-bottom": "40px"
+}
 
 // let createdFeed = InstagramFeed({
 //     'username': 'instagram',
@@ -24,7 +28,56 @@ export default class Instagram extends Component {
       return (
         <div>
         <div>
-            <div className="container-w1">Coming soon: instagram feed page</div>
+        <div className="text-container">
+            <h1>Instagram</h1>
+            <p>Follow us on instagram <a href="https://instagram.com/ndpiccpics">@ndpiccpics</a> to see more photos and learn more about the piccs!</p>
+          </div>
+          <div className="container" style={{"padding-top": "40px"}}>
+            <div className="row">
+              <div className="col-lg" align="center" style={columnStyle}>
+                <InstagramEmbed
+                  url='https://www.instagram.com/p/B60iEtiplcC/'
+                  maxWidth={50}
+                  hideCaption={false}
+                  containerTagName='div'
+                  protocol=''
+                  injectScript
+                  onLoading={() => {}}
+                  onSuccess={() => {}}
+                  onAfterRender={() => {}}
+                  onFailure={() => {}}
+                />
+              </div>
+              <div className="col-lg" align="center" style={columnStyle}>
+                <InstagramEmbed
+                  url='https://www.instagram.com/p/B6Byif6J4q6/'
+                  maxWidth={50}
+                  hideCaption={false}
+                  containerTagName='div'
+                  protocol=''
+                  injectScript
+                  onLoading={() => {}}
+                  onSuccess={() => {}}
+                  onAfterRender={() => {}}
+                  onFailure={() => {}}
+                />
+              </div>
+              <div className="col-lg" align="center" style={columnStyle}>
+                <InstagramEmbed
+                  url='https://www.instagram.com/p/B5BRo1DpqRL/'
+                  maxWidth={300}
+                  hideCaption={false}
+                  containerTagName='div'
+                  protocol=''
+                  injectScript
+                  onLoading={() => {}}
+                  onSuccess={() => {}}
+                  onAfterRender={() => {}}
+                  onFailure={() => {}}
+                />
+              </div>
+              </div>
+              </div>
             <Footer/>
             {/* <div>{{createdFeed}}</div> */}
         </div>        

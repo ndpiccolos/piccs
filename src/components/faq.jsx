@@ -27,10 +27,16 @@ export default class Faq extends Component {
                 <div className="faq-answers">
                   <p>In the fall, we practice from 6:30-8pm on Mondays-Thursdays, and on game weekends we practice on Fridays and Saturdays before the game.</p>
                 </div>
-                <h2>I've never marched before. Should I even bother auditioning?</h2>
+                <h2>I've never marched before. Should I audition?</h2>
                 <div className="faq-answers">
                   <p>Absolutely! Many people in the band never marched before joining, it is much more common than you may think. Band camp and the audition process places
                     a much higher priority on effort and attitude than it does on past experience. 
+                  </p>
+                </div>
+                <h2>What are some piccolo traditions?</h2>
+                <div className="faq-answers">
+                  <p>The piccolos have a ton of awesome traditions but some of our favorite are our iconic dances during midnight drummer
+                    circle and after our gameday Concert on the Steps, as well as playing a piccolo arrangement of the Rudy theme on game day. 
                   </p>
                 </div>
               </div>

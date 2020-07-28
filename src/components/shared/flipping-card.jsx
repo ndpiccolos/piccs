@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import '../../App.css'; 
 import Flippy, { FrontSide, BackSide } from 'react-flippy';
 
-import headshot from "../../images/test_photo.png";
+import headshot from "../../images/default-picture_0_0.png";
 
 var photoStyle = {
     "display": "flex",
@@ -26,8 +26,8 @@ export default class About extends Component {
               <img src={headshot} style={{"height": "200px", "width": "200px"}}/>
             </FrontSide>
             <BackSide style={{"font-size": "15px", "font-family": "RalewayLight"}}>
-            <div>Lauren is a computer science major from Minneapolis, MN! She is a senior and section leader this year and 
-                is super excited to be back in the bend! she loves her picco-fam and her montra is piccolos ride or die! </div>
+            <div>Lauren is a computer science major from Minneapolis, MN. She is a senior and section leader this year and 
+                is super excited to be back in the bend! Her favorite thing about the section is our awesome picc dances. </div>
             </BackSide>
         </Flippy>
       )

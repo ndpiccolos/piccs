@@ -23,7 +23,6 @@ export default class Contact extends Component {
               <div className="contact-stats">
               <a href="https://www.linkedin.com/in/lauren-b-aa4b84113/">
                 <p>facebook: ND Piccolo</p>
-                <Statistic title="twitter" style={{"font-family": "RalewayLight !important"}}value={"laurenjbakke"} />
               </a>
               </div>
               <div className="code-stats">
