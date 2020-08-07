@@ -26,7 +26,7 @@ export default class About extends Component {
               <img src={headshot} style={{"height": "200px", "width": "200px"}}/>
             </FrontSide>
             <BackSide style={{"font-size": "15px", "font-family": "RalewayLight"}}>
-            <div></div>
+            <div> </div>
             </BackSide>
         </Flippy>
       )

@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import '../../App.css'; 
 import Flippy, { FrontSide, BackSide } from 'react-flippy';
 
-import headshot from "../../images/default-picture_0_0.png";
+import headshot from "../../images/ElizabethZ.jpeg";
 
 var photoStyle = {
     "display": "flex",
@@ -26,7 +26,9 @@ export default class About extends Component {
               <img src={headshot} style={{"height": "200px", "width": "200px"}}/>
             </FrontSide>
             <BackSide style={{"font-size": "15px", "font-family": "RalewayLight"}}>
-            <div></div>
+                <div>
+                    Elizabeth is a Neuroscience major from Munster, Indiana. She is a junior living in Holy Cross Hall at Saint Mary’s. Her favorite band memory is trotting out of the tunnel for the first time and seeing the sea of green with all of the amazing fans!
+                </div>
             </BackSide>
         </Flippy>
       )

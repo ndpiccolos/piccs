@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import '../../App.css'; 
 import Flippy, { FrontSide, BackSide } from 'react-flippy';
 
-import headshot from "../../images/default-picture_0_0.png";
+import headshot from "../../images/MaliaM.jpeg";
 
 var photoStyle = {
     "display": "flex",
@@ -26,7 +26,9 @@ export default class About extends Component {
               <img src={headshot} style={{"height": "200px", "width": "200px"}}/>
             </FrontSide>
             <BackSide style={{"font-size": "15px", "font-family": "RalewayLight"}}>
-            <div></div>
+            <div>
+                Malia is a senior at ND studying Finance and Peace Studies. She is a section leader and a FUIC! She lives in Pasquerilla East Hall and is originally from Portland, Oregon. She was in Dublin last semester and can’t wait to be back on campus.
+            </div>
             </BackSide>
         </Flippy>
       )

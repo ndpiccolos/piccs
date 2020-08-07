@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import '../../App.css'; 
 import Flippy, { FrontSide, BackSide } from 'react-flippy';
 
-import headshot from "../../images/default-picture_0_0.png";
+import headshot from "../../images/OliviaJ.jpeg";
 
 var photoStyle = {
     "display": "flex",
@@ -26,7 +26,9 @@ export default class About extends Component {
               <img src={headshot} style={{"height": "200px", "width": "200px"}}/>
             </FrontSide>
             <BackSide style={{"font-size": "15px", "font-family": "RalewayLight"}}>
-            <div></div>
+                <div>
+                    Olivia is a sophomore computer science major from Midland, MI who lives in Cavanaugh Hall. Her favorite thing about the section is the enthusiasm we bring to everything whether it be game day, spirit week, or just a regular rehearsal.
+                </div>
             </BackSide>
         </Flippy>
       )

@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import '../../App.css'; 
 import Flippy, { FrontSide, BackSide } from 'react-flippy';
 
-import headshot from "../../images/default-picture_0_0.png";
+import headshot from "../../images/LillyO.jpeg";
 
 var photoStyle = {
     "display": "flex",
@@ -26,7 +26,9 @@ export default class About extends Component {
               <img src={headshot} style={{"height": "200px", "width": "200px"}}/>
             </FrontSide>
             <BackSide style={{"font-size": "15px", "font-family": "RalewayLight"}}>
-            <div></div>
+                <div>
+                    Lilly is a biology major from Lemont, Illinois. She is a sophomore living in Pangborn hall and she can’t wait to experience a new marching season like no other. Her favorite thing about the piccolo section is their willingness to always bring the hype!
+                </div>
             </BackSide>
         </Flippy>
       )

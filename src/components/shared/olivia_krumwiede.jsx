@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import '../../App.css'; 
 import Flippy, { FrontSide, BackSide } from 'react-flippy';
 
-import headshot from "../../images/default-picture_0_0.png";
+import headshot from "../../images/OliviaK.jpg";
 
 var photoStyle = {
     "display": "flex",
@@ -26,7 +26,9 @@ export default class About extends Component {
               <img src={headshot} style={{"height": "200px", "width": "200px"}}/>
             </FrontSide>
             <BackSide style={{"font-size": "15px", "font-family": "RalewayLight"}}>
-            <div></div>
+                <div>
+                    Olivia is a junior science preprofessional major from Omaha, NE. She lives in the finest dorm on campus, Farley Hall. Her favorite band tradition is yelling "Here Come the Irish!" as we march into the stadium on game day.
+                </div>
             </BackSide>
         </Flippy>
       )

@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import '../../App.css'; 
 import Flippy, { FrontSide, BackSide } from 'react-flippy';
 
-import headshot from "../../images/default-picture_0_0.png";
+import headshot from "../../images/AlenaC.jpeg";
 
 var photoStyle = {
     "display": "flex",
@@ -26,7 +26,9 @@ export default class About extends Component {
               <img src={headshot} style={{"height": "200px", "width": "200px"}}/>
             </FrontSide>
             <BackSide style={{"font-size": "15px", "font-family": "RalewayLight"}}>
-            <div></div>
+                <div>
+                    Alena is a junior English and Spanish major from Evansville, IN. She lives in Lewis Hall with fellow piccolo Mairéad Dillon. She and fellow piccolo Ella Wisniewski are presidents of Mustard Creative Writing Club (follow us on Twitter). She loves frogs.
+                </div>
             </BackSide>
         </Flippy>
       )

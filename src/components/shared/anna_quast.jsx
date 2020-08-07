@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import '../../App.css'; 
 import Flippy, { FrontSide, BackSide } from 'react-flippy';
 
-import headshot from "../../images/default-picture_0_0.png";
+import headshot from "../../images/AnnaQ.jpg";
 
 var photoStyle = {
     "display": "flex",
@@ -26,7 +26,9 @@ export default class About extends Component {
               <img src={headshot} style={{"height": "200px", "width": "200px"}}/>
             </FrontSide>
             <BackSide style={{"font-size": "15px", "font-family": "RalewayLight"}}>
-            <div></div>
+                <div>
+                Anna is a junior neuroscience major from Torrance, CA. She lives in Johnson Family Hall but also considers LaFun a second home. Trot o'clock is her favorite time of day, and she loves shimmying with 40+ of her best friends! Picc dances are elite.
+                </div>
             </BackSide>
         </Flippy>
       )

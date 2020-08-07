@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import '../../App.css'; 
 import Flippy, { FrontSide, BackSide } from 'react-flippy';
 
-import headshot from "../../images/default-picture_0_0.png";
+import headshot from "../../images/ShannonM.jpg";
 
 var photoStyle = {
     "display": "flex",
@@ -26,7 +26,7 @@ export default class About extends Component {
               <img src={headshot} style={{"height": "200px", "width": "200px"}}/>
             </FrontSide>
             <BackSide style={{"font-size": "15px", "font-family": "RalewayLight"}}>
-            <div></div>
+            <div>Shannon is a senior Physics & Applied Mathematics major at Saint Mary's College. She’s from Tulsa, OK and living off campus this year. She is also a section leader of the Irish Guard! Her favorite part about the piccolo section is the close-knit family dynamic! </div>
             </BackSide>
         </Flippy>
       )

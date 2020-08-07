@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import '../../App.css'; 
 import Flippy, { FrontSide, BackSide } from 'react-flippy';
 
-import headshot from "../../images/default-picture_0_0.png";
+import headshot from "../../images/AngelaB.jpeg";
 
 var photoStyle = {
     "display": "flex",
@@ -26,7 +26,9 @@ export default class About extends Component {
               <img src={headshot} style={{"height": "200px", "width": "200px"}}/>
             </FrontSide>
             <BackSide style={{"font-size": "15px", "font-family": "RalewayLight"}}>
-            <div></div>
+                <div>
+                Hello all! Angela is a Greek and Roman Civilization major from Hicksville, Ohio (It’s a real place!). She's currently a sophomore in Howard Hall, and she can usually be caught singing at all times or bragging about the best section in the band, the piccolos.
+                </div>
             </BackSide>
         </Flippy>
       )
