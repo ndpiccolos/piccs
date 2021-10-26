@@ -23,7 +23,7 @@ export default class About extends Component {
                   </p>
                   <img src={nd} style={{"margin-top": "12%"}} className="about-images"/>
                   <p style={{"margin-top": "12%", "text-align": "center"}}>
-                Many of the members of the Piccolo section are involved in not only marching band, but also concert band, hockey band, basketball band, orchestra, and flute choir. We typically have 2-3 section leaders, with about 12 members on the CORE leadership team each year. This past season, we had three members of the Piccolo section as members of the Irish Guard, one of whom is the first Saint Mary’s student to ever be on Irish Guard!
+                Many of the members of the Piccolo section are involved in not only marching band, but also concert band, hockey band, basketball band, orchestra, and flute choir. We typically have 2-3 section leaders, with about 12-16 members on the CORE leadership team each year. This past season, we were even named section of the year!
                 </p>
                 </div>
                 <div className="col-lg about-style" align="center">

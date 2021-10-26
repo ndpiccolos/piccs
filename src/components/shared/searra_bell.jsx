@@ -27,7 +27,7 @@ export default class About extends Component {
             </FrontSide>
             <BackSide style={{"font-size": "15px", "font-family": "RalewayLight"}}>
                 <div>
-                Searra is a 3rd year architecture major. She grew up in Pine Island, NY but now lives in South Bend, IN. Searra lived in Breen-Phillips Hall for two years, but this semester she’s looking forward to being in McGlinn.
+                I’m Searra, a 4th year Architecture Major with a concentration is Historic Preservation and Restoration at Notre Dame. I’m from Goshen, NY and I’ve lived in Breen-Phillips and McGlinn Hall, but have moved off campus this year. I love the piccolo spirit, we always have the best cheers! 
                 </div>
             </BackSide>
         </Flippy>

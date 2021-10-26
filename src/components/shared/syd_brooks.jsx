@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import '../../App.css'; 
 import Flippy, { FrontSide, BackSide } from 'react-flippy';
 
-import headshot from "../../images/default-picture_0_0.png";
+import headshot from "../../images/SydB.jpeg";
 
 var photoStyle = {
     "display": "flex",
@@ -26,6 +26,9 @@ export default class About extends Component {
               <img src={headshot} style={{"height": "200px", "width": "200px"}}/>
             </FrontSide>
             <BackSide style={{"font-size": "15px", "font-family": "RalewayLight"}}>
+              <div>
+              Syd is a junior studying Speech Language Pathology at Saint Mary’s College with a Theatre minor. Syd is from Cassopolis, MI and currently lives apartment in dountown South Bend. Syd adores their time  being apart of the best section–the piccolos! She likes to call herself the best shimmy-er. ;)
+              </div>
             </BackSide>
         </Flippy>
       )

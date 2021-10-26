@@ -27,7 +27,7 @@ export default class About extends Component {
             </FrontSide>
             <BackSide style={{"font-size": "15px", "font-family": "RalewayLight"}}>
                 <div>
-                    Sophia hails from the bustling suburbs of Toledo, Ohio. If you can’t find her skimming her English books an hour before class, odds are she's jamming at Drummer's Circle or getting distracted by something shiny. Oh, here’s a reminder––Piccs are the BEST section!
+                Sophia hails from the bustling suburbs of Toledo, Ohio. If you can’t find her skimming her English books an hour before class, odds are she's jamming at Drummer's Circle or getting distracted by something shiny. Oh, here’s a reminder — Piccs are the BEST section!
                 </div>
             </BackSide>
         </Flippy>

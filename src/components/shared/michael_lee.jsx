@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import '../../App.css'; 
 import Flippy, { FrontSide, BackSide } from 'react-flippy';
 
-import headshot from "../../images/MichaelL.JPG";
+import headshot from "../../images/default-picture_0_0.png";
 
 var photoStyle = {
     "display": "flex",
@@ -26,7 +26,7 @@ export default class About extends Component {
               <img src={headshot} style={{"height": "200px", "width": "200px"}}/>
             </FrontSide>
             <BackSide style={{"font-size": "15px", "font-family": "RalewayLight"}}>
-            <div>Yo yo yo, my name is Michael Lee, and I am a junior majoring in biochemistry and english with a minor in philosophy! I happily reside in O'Neill Family Hall, and outside of class, I enjoy running, sports, fiddling with several music instruments, and, of course, marching to the tunes of the Notre Dame Victory March!</div>
+            <div></div>
             </BackSide>
         </Flippy>
       )

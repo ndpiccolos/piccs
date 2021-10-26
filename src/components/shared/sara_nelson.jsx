@@ -27,7 +27,7 @@ export default class About extends Component {
             </FrontSide>
             <BackSide style={{"font-size": "15px", "font-family": "RalewayLight"}}>
                 <div>
-                    Sara Nelson is a sophomore architecture major from Park Ridge, IL. She lives in Pasquerilla West Hall (roll weasels!), but spends way too much time in Walsh Family Hall of Architecture. Her favorite traditions are piccolo dances and Secret Santa!
+                    Sara Nelson is a junior architecture major from Park Ridge, IL. She lives in Pasquerilla West Hall (roll weasels!), but is currently spending a year abroad in Rome. Her favorite traditions are piccolo dances and Secret Santa!
                 </div>
             </BackSide>
         </Flippy>

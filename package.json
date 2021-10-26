@@ -8,6 +8,7 @@
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
     "amd-loader": "0.0.8",
+    "ansi-regex": "^6.0.1",
     "antd": "^4.3.4",
     "bootstrap": "^4.5.0",
     "jquery": "^3.5.1",

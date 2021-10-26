@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import '../../App.css'; 
 import Flippy, { FrontSide, BackSide } from 'react-flippy';
 
-import headshot from "../../images/MoiraB.jpg";
+import headshot from "../../images/default-picture_0_0.png";
 
 var photoStyle = {
     "display": "flex",
@@ -26,9 +26,7 @@ export default class About extends Component {
               <img src={headshot} style={{"height": "200px", "width": "200px"}}/>
             </FrontSide>
             <BackSide style={{"font-size": "15px", "font-family": "RalewayLight"}}>
-            <div>
-                Moira is a Political Science major and Irish Literature supplementary major from Midland, MI. She is a junior living in Lyons Hall! Her favorite thing about the section is our matching bows for football games.
-            </div>
+            <div></div>
             </BackSide>
         </Flippy>
       )

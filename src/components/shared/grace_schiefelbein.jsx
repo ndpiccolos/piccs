@@ -27,7 +27,7 @@ export default class About extends Component {
             </FrontSide>
             <BackSide style={{"font-size": "15px", "font-family": "RalewayLight"}}>
                 <div>
-                    Grace is a junior piccolo from a small town near Ann Arbor, MI. She is a biochemistry major with a minor in the Classics department. She has never missed a Midnight Drummers Circle because she loves to do those piccolo dances and get hyped for gameday!!
+                Grace is a senior Biochemistry major with a supplemental major in Greek and Roman Civilization. She is originally from Brighton, MI, but her home on campus is Farley Hall. She loves doing the piccolo dances at Drummer’s Circle. 
                 </div>
             </BackSide>
         </Flippy>

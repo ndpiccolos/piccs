@@ -1,8 +1,10 @@
 import React, { Component } from 'react';
-
+import {  Nav } from 'react-bootstrap';
+import { NavLink } from 'react-router-dom';
 import { GrInstagram } from 'react-icons/gr';
 import { FaFacebookSquare } from 'react-icons/fa'; 
 import { FiMail } from 'react-icons/fi'; 
+
 
 /* this component uses bootstrap's grid - see https://getbootstrap.com/docs/4.0/layout/grid/ */
 /* react-icons: https://react-icons.github.io/react-icons/icons?name=fa */
@@ -21,9 +23,9 @@ export default class Footer extends Component {
               </div>
               <div className="col-md" style={{"padding-bottom": 30}}>
                 <h3 className="footer-header">ABOUT US</h3>
-                <p><div className="footer-link">About (ADD LINKS)</div>
-                <div className="footer-link">Members</div>
-                <div className="footer-link">FAQ</div></p>
+                <div><NavLink to="about" style={{color: 'grey'}}>About</NavLink></div>
+                <div><NavLink to="members" style={{color: 'grey'}}>Current Members</NavLink></div>
+                <div><NavLink to="faq" style={{color: 'grey'}}>FAQ</NavLink></div>
               </div>
               <div className="col-md" style={{"padding-bottom": 30}}>
                 <h3 className="footer-header">LEARN MORE</h3>

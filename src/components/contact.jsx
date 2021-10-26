@@ -27,7 +27,7 @@ export default class Contact extends Component {
               </div>
               <div className="code-stats">
               <p>The code for this site can be found on <a href="https://github.com/ndpiccolos/piccs">github</a> and is maintained by 
-              Lauren Bakke, please feel free to email us with any questions about it.</p>
+              Lauren Bakke, Olivia Johnson, and Camille Knott please feel free to email us with any questions about it.</p>
               </div>
             </div>
             <Footer/>

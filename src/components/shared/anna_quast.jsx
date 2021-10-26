@@ -27,7 +27,7 @@ export default class About extends Component {
             </FrontSide>
             <BackSide style={{"font-size": "15px", "font-family": "RalewayLight"}}>
                 <div>
-                Anna is a junior neuroscience major from Torrance, CA. She lives in Johnson Family Hall but also considers LaFun a second home. Trot o'clock is her favorite time of day, and she loves shimmying with 40+ of her best friends! Picc dances are elite.
+                Anna (she/her) is a senior Neuroscience and Behavior major from Torrance, CA. She lives in Johnson Family Hall, but she often lives in the library too! She loves to shimmy down the thunder and get dinner after practice with 40+ of her best friends:)
                 </div>
             </BackSide>
         </Flippy>

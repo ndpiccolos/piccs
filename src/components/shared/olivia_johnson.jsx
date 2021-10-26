@@ -27,7 +27,7 @@ export default class About extends Component {
             </FrontSide>
             <BackSide style={{"font-size": "15px", "font-family": "RalewayLight"}}>
                 <div>
-                    Olivia is a sophomore computer science major from Midland, MI who lives in Cavanaugh Hall. Her favorite thing about the section is the enthusiasm we bring to everything whether it be game day, spirit week, or just a regular rehearsal.
+                Olivia is a junior computer science major with a collaborative innovation minor from Midland, MI who lives in Cavanaugh Hall. Her favorite thing about the section is the enthusiasm we bring to everything whether it be game day, spirit week, or just a regular rehearsal.
                 </div>
             </BackSide>
         </Flippy>

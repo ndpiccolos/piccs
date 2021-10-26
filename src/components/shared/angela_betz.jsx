@@ -27,7 +27,7 @@ export default class About extends Component {
             </FrontSide>
             <BackSide style={{"font-size": "15px", "font-family": "RalewayLight"}}>
                 <div>
-                Hello all! Angela is a Greek and Roman Civilization major from Hicksville, Ohio (It’s a real place!). She's currently a sophomore in Howard Hall, and she can usually be caught singing at all times or bragging about the best section in the band, the piccolos.
+                Hello all! Angela is a Classics and Anthropology major from Hicksville, Ohio (It’s a real place!). She's currently a junior in Howard Hall, and she can usually be caught singing at all times or bragging about the best section in the band, the piccolos.
                 </div>
             </BackSide>
         </Flippy>

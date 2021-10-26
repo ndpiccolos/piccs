@@ -27,7 +27,7 @@ export default class About extends Component {
             </FrontSide>
             <BackSide style={{"font-size": "15px", "font-family": "RalewayLight"}}>
                 <div>
-                    Lilly is a biology major from Lemont, Illinois. She is a sophomore living in Pangborn hall and she can’t wait to experience a new marching season like no other. Her favorite thing about the piccolo section is their willingness to always bring the hype!
+                Hi! My name is Lilly Olsick, and I am a junior majoring in biology with a minor in compassionate care in medicine! I live in Flaherty Hall, and I like working out, hanging out with friends, and visiting the Grotto. My favorite part about marching band is of course trotting out of the tunnel 😤
                 </div>
             </BackSide>
         </Flippy>

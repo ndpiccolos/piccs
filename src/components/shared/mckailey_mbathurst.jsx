@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import '../../App.css'; 
 import Flippy, { FrontSide, BackSide } from 'react-flippy';
 
-import headshot from "../../images/McKaileyB.jpeg";
+import headshot from "../../images/McKaileyB.jpg";
 
 var photoStyle = {
     "display": "flex",
@@ -27,7 +27,7 @@ export default class About extends Component {
             </FrontSide>
             <BackSide style={{"font-size": "15px", "font-family": "RalewayLight"}}>
                 <div>
-                Hi. I’m McKailey, a junior music education major at Saint Mary’s. Along with band, I love riding horses and working on crafts. I am so excited for what this season has to hold and to see everyone’s beautiful faces once again
+                McKailey is a senior at Saint Mary's studying Music Education living in Le Mans Hall, originally from Grand Rapids, Michigan. She is a band ambassador and returning member! She loves riding horses, crafting, spending time with family, and, of course, the high energy and spirit of the Piccolo Section!
                 </div>
             </BackSide>
         </Flippy>

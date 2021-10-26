@@ -26,7 +26,9 @@ export default class About extends Component {
               <img src={headshot} style={{"height": "200px", "width": "200px"}}/>
             </FrontSide>
             <BackSide style={{"font-size": "15px", "font-family": "RalewayLight"}}>
-            <div>Shannon is a senior Physics & Applied Mathematics major at Saint Mary's College. She’s from Tulsa, OK and living off campus this year. She is also a section leader of the Irish Guard! Her favorite part about the piccolo section is the close-knit family dynamic! </div>
+            <div>
+            Shannon is a fifth year senior majoring in Civil Engineering. Last year, she graduated from Saint Mary's with a degree in Physics & Applied Mathematics (Go Belles!). Shannon is from Tulsa, Oklahoma. She is also a member of the Irish Guard. 
+            </div>
             </BackSide>
         </Flippy>
       )

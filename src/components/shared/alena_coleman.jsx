@@ -27,7 +27,7 @@ export default class About extends Component {
             </FrontSide>
             <BackSide style={{"font-size": "15px", "font-family": "RalewayLight"}}>
                 <div>
-                    Alena is a junior English and Spanish major from Evansville, IN. She lives in Lewis Hall with fellow piccolo Mairéad Dillon. She and fellow piccolo Ella Wisniewski are presidents of Mustard Creative Writing Club (follow us on Twitter). She loves frogs.
+                Hello! I’m a senior English and Spanish major with a minor in Education, Schooling, and Society. At ND I live in Lewis Hall, but I’m from Evansville, IN. I’m in Mustard Creative Writing Club, and I work as a TA for Writing and Rhetoric Tutorial. I love all things piccolo, and I’m looking forward to a great year! 
                 </div>
             </BackSide>
         </Flippy>
