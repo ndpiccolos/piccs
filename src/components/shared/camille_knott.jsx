@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import '../../App.css'; 
 import Flippy, { FrontSide, BackSide } from 'react-flippy';
 
-import headshot from "../../images/default-picture_0_0.png";
+import headshot from "../../images/CamilleK.png";
 
 var photoStyle = {
     "display": "flex",
@@ -26,6 +26,7 @@ export default class About extends Component {
               <img src={headshot} style={{"height": "200px", "width": "200px"}}/>
             </FrontSide>
             <BackSide style={{"font-size": "15px", "font-family": "RalewayLight"}}>
+              Camille is a junior computer science major from Hindsdale, IL. On campus, she lives in Welsh Fam Hall. Her favorite thing about the section is all of our piccolo dances and cheers!
             </BackSide>
         </Flippy>
       )
