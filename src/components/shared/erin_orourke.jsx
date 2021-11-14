@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import '../../App.css'; 
 import Flippy, { FrontSide, BackSide } from 'react-flippy';
 
-import headshot from "../../images/ErinO.jpeg";
+import headshot from "../../images/ErinO.jpg";
 
 var photoStyle = {
     "display": "flex",
