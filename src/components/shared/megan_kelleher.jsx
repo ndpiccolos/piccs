@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import '../../App.css'; 
 import Flippy, { FrontSide, BackSide } from 'react-flippy';
 
-import headshot from "../../images/MeganK.jpg";
+import headshot from "../../images/default-picture_0_0.png"; 
 
 var photoStyle = {
     "display": "flex",
@@ -27,7 +27,6 @@ export default class About extends Component {
             </FrontSide>
             <BackSide style={{"font-size": "15px", "font-family": "RalewayLight"}}>
                 <div>
-                Megan is a Mechanical Engineering major and Liturgical Music Ministries minor from Columbus, OH. She is currently a sophomore in Cavanaugh Hall (Go Chaos!) Trotting out of the tunnel on gameday and getting to spend time with such amazing piccolos makes band a dream come true for her!
                 </div>
             </BackSide>
         </Flippy>

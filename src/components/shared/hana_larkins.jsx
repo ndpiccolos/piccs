@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import '../../App.css'; 
 import Flippy, { FrontSide, BackSide } from 'react-flippy';
 
-import headshot from "../../images/HanaL.jpeg";
+import headshot from "../../images/default-picture_0_0.png"; 
 
 var photoStyle = {
     "display": "flex",
@@ -27,7 +27,6 @@ export default class About extends Component {
             </FrontSide>
             <BackSide style={{"font-size": "15px", "font-family": "RalewayLight"}}>
             <div>
-            Hana is a junior Biology major at Saint Mary’s College. She’s from Birmingham, Alabama (but not really) and living on campus in Le Mans Hall. Whenever she’s not studying or dancing with the piccs, you can find her lifting at the gym! 
             </div>
             </BackSide>
         </Flippy>

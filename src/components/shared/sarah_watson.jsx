@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import '../../App.css'; 
 import Flippy, { FrontSide, BackSide } from 'react-flippy';
 
-import headshot from "../../images/SarahW.jpeg";
+import headshot from "../../images/profile_images/SarahW.jpeg";
 
 var photoStyle = {
     "display": "flex",
@@ -27,8 +27,7 @@ export default class About extends Component {
             </FrontSide>
             <BackSide style={{"font-size": "15px", "font-family": "RalewayLight"}}>
                 <div>
-                Sarah is a sophomore Biochemistry major and Music and Italian minor from Pittsburgh, PA. She lives in Holy Cross Hall at Saint Mary’s College with the amazing Smickolo Hannah Chartier. Sarah is so excited for another season and loves hanging out with the piccolos at drummer circles!
-                </div>
+                Sarah (she/her) is a junior Biochemistry major and Music and Italian minor from Pittsburgh, PA. She lives in Le Mans Hall at Saint Mary’s College. Sarah loves hanging out with the piccolos at midnight drummers circle and is so excited for another season!</div>
             </BackSide>
         </Flippy>
       )

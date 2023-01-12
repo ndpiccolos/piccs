@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import '../../App.css'; 
 import Flippy, { FrontSide, BackSide } from 'react-flippy';
 
-import headshot from "../../images/ClaraM.jpeg";
+import headshot from "../../images/profile_images/Clara.jpeg";
 
 var photoStyle = {
     "display": "flex",
@@ -27,7 +27,7 @@ export default class About extends Component {
             </FrontSide>
             <BackSide style={{"font-size": "15px", "font-family": "RalewayLight"}}>
                 <div>
-                Clara is a first year from Arlington Heights, Illinois. She is a chemical engineering major living in Howard Hall and her favorite thing about the piccolo section is dancing at Drummer’s Circle. 
+                Hello! I am a sophomore, chemical engineering major living in Howard Hall, but originally from Arlington Heights, Illinois. Outside of band I am the Howard Week Comissioner, Howard Hall Election Coordinator, and a student intern in the Office of Development. 
                 </div>
             </BackSide>
         </Flippy>

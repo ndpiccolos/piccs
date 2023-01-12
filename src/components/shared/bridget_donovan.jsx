@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import '../../App.css'; 
 import Flippy, { FrontSide, BackSide } from 'react-flippy';
 
-import headshot from "../../images/BridgetD.jpeg";
+import headshot from "../../images/profile_images/Bridget.jpeg";
 
 var photoStyle = {
     "display": "flex",
@@ -27,7 +27,7 @@ export default class About extends Component {
             </FrontSide>
             <BackSide style={{"font-size": "15px", "font-family": "RalewayLight"}}>
                 <div>
-                Hi! I’m Bridget and I’m from Grand Rapids, MI. I attend Saint Marys! Go Belles! I will major in nursing or biology. A fun fact about me is that I did competitive gymnastics for 12 years and cheer for 8 years. I love my picc fam so much and can’t wait for more memories with them! 💞
+                Bridget is a sophomore and this is her second year apart of the band of the fighting Irish. She is a chemistry major at Saint Mary’s and a chemical engineering major at Notre Dame. She loves being apart of the piccolo section and all the fun memories they have  made over the past couple of years. 
                 </div>
             </BackSide>
         </Flippy>

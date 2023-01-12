@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import '../../App.css'; 
 import Flippy, { FrontSide, BackSide } from 'react-flippy';
 
-import headshot from "../../images/SarahF.jpeg";
+import headshot from "../../images/profile_images/SarahF.jpeg";
 
 var photoStyle = {
     "display": "flex",
@@ -27,7 +27,7 @@ export default class About extends Component {
             </FrontSide>
             <BackSide style={{"font-size": "15px", "font-family": "RalewayLight"}}>
                 <div>
-                hii i’m sarah fitzgerald. i’m a freshman at saint mary’s college and i live in regina hall. i am from shelbyville indiana. i plan on majoring in computer applied mathematics and engineering at notre dame. 
+                Sarah is a sophomore at saint mary’s. She is majoring in computing applied mathematics and computer science at ND.  
                 </div>
             </BackSide>
         </Flippy>

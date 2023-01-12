@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import '../../App.css'; 
 import Flippy, { FrontSide, BackSide } from 'react-flippy';
 
-import headshot from "../../images/ConsuelaR.jpeg";
+import headshot from "../../images/default-picture_0_0.png";
 
 var photoStyle = {
     "display": "flex",
@@ -27,7 +27,6 @@ export default class About extends Component {
             </FrontSide>
             <BackSide style={{"font-size": "15px", "font-family": "RalewayLight"}}>
                 <div>
-                I’m a sophomore from Hilo, Hawaii. I live in Ryan Hall and am currently studying architecture. My favorite color is blue and I love the Dallas Cowboys!! 
                 </div>
             </BackSide>
         </Flippy>

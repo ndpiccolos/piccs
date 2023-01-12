@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import '../../App.css'; 
 import Flippy, { FrontSide, BackSide } from 'react-flippy';
 
-import headshot from "../../images/HannahC.jpg";
+import headshot from "../../images/profile_images/Hannah.jpeg";
 
 var photoStyle = {
     "display": "flex",
@@ -27,8 +27,7 @@ export default class About extends Component {
             </FrontSide>
             <BackSide style={{"font-size": "15px", "font-family": "RalewayLight"}}>
                 <div>
-                Hannah is a sophomore majoring in Business Administration with a concentration in Marketing at Saint Mary's College. She is from Cleveland, OH and lives in Holy Cross Hall with piccolo/bestie Sarah Watson. She loves all of the friendships piccolos make on and off the field!
-                </div>
+                Hannah is a junior Business Administration major concentrating in Marketing with a Communications minor in PR/Advertising. She is from Cleveland, OH and lives in Le Mans Hall at Saint Mary’s. Her favorite part of the Piccolo Section is all of lasting friendships she has made so far!</div>
             </BackSide>
         </Flippy>
       )

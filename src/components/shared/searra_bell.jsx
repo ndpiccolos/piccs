@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import '../../App.css'; 
 import Flippy, { FrontSide, BackSide } from 'react-flippy';
 
-import headshot from "../../images/SearraB.jpeg";
+import headshot from "../../images/profile_images/Searra.jpeg";
 
 var photoStyle = {
     "display": "flex",
@@ -27,7 +27,7 @@ export default class About extends Component {
             </FrontSide>
             <BackSide style={{"font-size": "15px", "font-family": "RalewayLight"}}>
                 <div>
-                I’m Searra, a 4th year Architecture Major with a concentration is Historic Preservation and Restoration at Notre Dame. I’m from Goshen, NY and I’ve lived in Breen-Phillips and McGlinn Hall, but have moved off campus this year. I love the piccolo spirit, we always have the best cheers! 
+                5th Year Architecture Student at Notre Dame, Lived in BP, McGlinn and now off campus, From the Hudson Valley of New York
                 </div>
             </BackSide>
         </Flippy>

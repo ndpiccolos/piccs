@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import '../../App.css'; 
 import Flippy, { FrontSide, BackSide } from 'react-flippy';
 
-import headshot from "../../images/SophiaM.png";
+import headshot from "../../images/profile_images/Sophia.jpg";
 
 var photoStyle = {
     "display": "flex",
@@ -27,7 +27,7 @@ export default class About extends Component {
             </FrontSide>
             <BackSide style={{"font-size": "15px", "font-family": "RalewayLight"}}>
                 <div>
-                Sophia hails from the bustling suburbs of Toledo, Ohio. If you can’t find her skimming her English books an hour before class, odds are she's jamming at Drummer's Circle or getting distracted by something shiny. Oh, here’s a reminder — Piccs are the BEST section!
+                Sophia is an English and Global Affairs major hailing from the bustling suburbs of Toledo, Ohio. If you can’t find her skimming her readings an hour before class, odds are she's jamming out at Drummer's Circle or getting distracted by something shiny.
                 </div>
             </BackSide>
         </Flippy>

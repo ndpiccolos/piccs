@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import '../../App.css'; 
 import Flippy, { FrontSide, BackSide } from 'react-flippy';
 
-import headshot from "../../images/DelaneyC.jpeg";
+import headshot from "../../images/profile_images/Delaney.jpeg";
 
 var photoStyle = {
     "display": "flex",
@@ -27,7 +27,7 @@ export default class About extends Component {
             </FrontSide>
             <BackSide style={{"font-size": "15px", "font-family": "RalewayLight"}}>
                 <div>
-                Delaney is from Newburyport, Massachusetts, and she lives on campus in Cavanaugh Hall. She is studying mechanical engineering with a concentration in aerospace. Her favorite thing about the piccolo section is the people!
+                Delaney is a junior from Newburyport, Massachusetts studying mechanical engineering with a minor in Irish. I’m addition to the marching band, she is also a member of the ND Bagpipe Band. In her free time, she enjoys sailing, painting, and ham radio. 
                 </div>
             </BackSide>
         </Flippy>

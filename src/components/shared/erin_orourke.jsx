@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import '../../App.css'; 
 import Flippy, { FrontSide, BackSide } from 'react-flippy';
 
-import headshot from "../../images/ErinO.jpg";
+import headshot from "../../images/profile_images/Erin.jpg";
 
 var photoStyle = {
     "display": "flex",
@@ -27,7 +27,7 @@ export default class About extends Component {
             </FrontSide>
             <BackSide style={{"font-size": "15px", "font-family": "RalewayLight"}}>
                 <div>
-                Hi everyone!!!! My name is Erin! I’m from Tucson, Arizona but now I live in Regina Hall on Saint Mary’s campus (Go Belles!) I’m majoring in Psycholoy on a premed track, and minoring in Biology. My favorite part about the section is how welcoming and supportive everyone is :) oh, and picc dances are a BLAST!!!
+                Hi! My name is Erin O'Rourke. I am a sophomore at Saint Mary's College, Go Belles! I live off campus this year and I am a Psychology major on the Medical School route. I'm also studying Spanish and Biology as my minors! I'm originally from Tucson, Arizona.
                 </div>
             </BackSide>
         </Flippy>

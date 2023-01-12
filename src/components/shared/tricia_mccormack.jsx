@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import '../../App.css'; 
 import Flippy, { FrontSide, BackSide } from 'react-flippy';
 
-import headshot from "../../images/TriciaM.jpeg";
+import headshot from "../../images/profile_images/Tricia.jpeg";
 
 var photoStyle = {
     "display": "flex",
@@ -27,7 +27,7 @@ export default class About extends Component {
             </FrontSide>
             <BackSide style={{"font-size": "15px", "font-family": "RalewayLight"}}>
                 <div>
-                Hi friends! My name is Tricia McCormack and I am a sophomore living in Flaherty Hall. I am majoring in History with a minor in Sustainability. I'm from Glen Ellyn, IL and I love the piccolo section with my whole heart! Victory begins at coffee is definitely one of my favorite picc traditions! 
+                Hello! My name is Tricia McCormack I’m a junior piccolo player in the band pursuing a History major as well as sustainability & Italian minors. I’m originally from Glen Ellyn, IL a small suburb of Chicago but I now call Flaherty Hall my home, go bears! 
                 </div>
             </BackSide>
         </Flippy>

@@ -6,3 +6,5 @@ Hello! We are the piccolos of the Band of the Fighting Irish.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and deployed with
 [Github Pages](https://pages.github.com/).
+
+An explanation on how to update the current members is within ./HowToUpdate.md

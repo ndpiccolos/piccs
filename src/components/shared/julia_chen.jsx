@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import '../../App.css'; 
 import Flippy, { FrontSide, BackSide } from 'react-flippy';
 
-import headshot from "../../images/JuliaC.jpeg";
+import headshot from "../../images/profile_images/Julia.jpeg";
 
 var photoStyle = {
     "display": "flex",
@@ -27,7 +27,7 @@ export default class About extends Component {
             </FrontSide>
             <BackSide style={{"font-size": "15px", "font-family": "RalewayLight"}}>
                 <div>
-                Julia is a freshman studying Finance. She currently resides in Farley Hall but is originally from Des Moines, Iowa.
+                Julia is a sophomore studying Finance and Sustainability. She lives in Farley Hall but is originally from Johnston, Iowa. Her favorite part about the piccolo section is the people!
                 </div>
             </BackSide>
         </Flippy>

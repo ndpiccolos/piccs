@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import '../../App.css'; 
 import Flippy, { FrontSide, BackSide } from 'react-flippy';
 
-import headshot from "../../images/KatherineH.jpg";
+import headshot from "../../images/profile_images/Katherine.jpg";
 
 var photoStyle = {
     "display": "flex",
@@ -27,7 +27,7 @@ export default class About extends Component {
             </FrontSide>
             <BackSide style={{"font-size": "15px", "font-family": "RalewayLight"}}>
                 <div>
-                Katherine is a freshman majoring in Business and Economics. Originally from Rochester, NY, she now lives in Ryan Hall. Her favorite parts of band are the piccolo family and being the Warriors of the Back during march out! 
+                Katherine is a sophomore studying Accounting and Economics at Notre Dame. Originally from Rochester, NY, her home on campus is Ryan Hall. She loves the piccolo family and hyping up fans on gameday! 
                 </div>
             </BackSide>
         </Flippy>

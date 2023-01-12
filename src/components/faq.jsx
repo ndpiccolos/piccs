@@ -11,7 +11,7 @@ export default class Faq extends Component {
               <div className="faq-questions">
                 <h2>Who are the piccolos?</h2>
                 <div className="faq-answers">
-                  <p>The piccolos of the Notre Dame Marching Band were 45 members strong in the 2019 season. See the about tab for more info!</p>
+                  <p>The piccolos of the Notre Dame Marching Band were 52 members strong in the 2022 season. See the about tab for more info!</p>
                 </div>
                 <h2>What is a piccolo?</h2>
                 <div className="faq-answers">

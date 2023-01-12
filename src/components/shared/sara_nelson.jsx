@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import '../../App.css'; 
 import Flippy, { FrontSide, BackSide } from 'react-flippy';
 
-import headshot from "../../images/SaraN.jpeg";
+import headshot from "../../images/default-picture_0_0.png";
 
 var photoStyle = {
     "display": "flex",
@@ -27,7 +27,6 @@ export default class About extends Component {
             </FrontSide>
             <BackSide style={{"font-size": "15px", "font-family": "RalewayLight"}}>
                 <div>
-                    Sara Nelson is a junior architecture major from Park Ridge, IL. She lives in Pasquerilla West Hall (roll weasels!), but is currently spending a year abroad in Rome. Her favorite traditions are piccolo dances and Secret Santa!
                 </div>
             </BackSide>
         </Flippy>

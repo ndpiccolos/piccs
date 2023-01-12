@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import '../../App.css'; 
 import Flippy, { FrontSide, BackSide } from 'react-flippy';
 
-import headshot from "../../images/LizzieM.jpeg";
+import headshot from "../../images/profile_images/Lizzie.jpeg";
 
 var photoStyle = {
     "display": "flex",
@@ -27,8 +27,7 @@ export default class About extends Component {
             </FrontSide>
             <BackSide style={{"font-size": "15px", "font-family": "RalewayLight"}}>
                 <div>
-                Lizzie is a junior Program of Liberal Studies major with a Business Economics minor. She's from Oswego, NY, and resides in Pasquerilla East Hall. When she's not reading or writing papers, you can find her getting hyped for game day and doing all of the piccolo dances at midnight drummers circle.
-                </div>
+                Lizzie is a senior Program of Liberal Studies major. She's from Oswego, NY, and resides in Pasquerilla East Hall. When she's not getting another cup of coffee in the PLS lounge, she loves getting an hour and half-long dinner after practice and dancing at midnight drummers circle with her fellow piccolos.</div>
             </BackSide>
         </Flippy>
       )
