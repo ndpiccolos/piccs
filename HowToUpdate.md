@@ -17,4 +17,6 @@
     - React does not allow for variable file paths at the time this guide is being created, otherwise all of these files could be condensed into one master profile component that takes bio and image file path props that could be passed from the members page. Feel free to experiment with this to avoid all of the redundant code  - though be warned I have spent quite a few hours trying unsuccessfully
     - You could use bios and images from previous years, I just chose not to. It was just easier for me to keep track while updating to have everyone resubmit and take out people who did not instead of just asking for new members. I also though that people might want different pictures or bio information might change, so I thought it would be best to do a total refresh each year. Feel free to do whatever makes the most sense to you
 4. Feel free to check out the other web pages (like about.jsx, contact.jsx, or faq.jsx in the components folder) to see if there's anything you would like to update there
-5. Build, run, and test before pushing!
+5. Build, run, and test using `npm run start`
+6. Deploy on your local machine using `npm run deploy`
+7. Push
